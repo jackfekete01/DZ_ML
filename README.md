@@ -10,4 +10,12 @@ Use the link below to download the example synthetic dataset:
 https://zenodo.org/records/14532918
 Zenodo DOI: 10.5281/zenodo.14532918
 
-This dataset represents a 50-sample model for fixed age proportion data. Each file contains all of the data for each source from a set interval and number of analyses used to create each synthetic kernel density estimate (KDE). 
+This dataset represents a 50-sample model for fixed age proportion data. Each file contains all the data for each source from a set interval and the number of analyses used to create each synthetic kernel density estimate (KDE). 
+
+### Creating a Dataset
+Fixed and variable age mode datasets can be created using the following Jupyter Notebook scripts:
+- Fixed AGe Mode Synthetic KDE Creation.ipynb
+- Variable Age Mode Synthetic KDE Creation.ipynb
+
+For each Jupyter Notebook above, you must download the source age distributions (i.e., 'New 0.15-0.25 Sources.p')
+
