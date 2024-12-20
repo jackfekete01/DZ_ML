@@ -26,7 +26,7 @@ For each Jupyter Notebook above, you must download the source age distributions 
 This data will then automatically be saved as a dictionary (i.e., '0.15-0.25 0 Sources') for each source from each similarity interval.
 
 ## AutoML Pipeline Development using TPOT
-Here, we provide an example of the AutoML optimization process using TPOT. THis example can be found in:
+Here, we provide an example of the AutoML optimization process using TPOT. This example can be found in:
 - 'TPOT Example.ipynb'
 
 To begin, we select a similarity interval of data to test this on; in our example, this is the 0.95-0.99 similarity interval. We then select a subset of this data to create an individual model by selecting the number of sources included and the number of analyses per sample. In our case, we select five sources with 115 analyses per synthetic KDE. This data is then formatted and preprocessed for the TPOT classifier.
