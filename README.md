@@ -15,7 +15,7 @@ This dataset represents a 50-sample model for fixed age proportion data. Each fi
 
 ### Creating a Dataset
 Fixed and variable age mode datasets can be created using the following Jupyter Notebook scripts:
-- Fixed AGe Mode Synthetic KDE Creation.ipynb
+- Fixed Age Mode Synthetic KDE Creation.ipynb
 - Variable Age Mode Synthetic KDE Creation.ipynb
 
 For each Jupyter Notebook above, you must download the source age distributions (i.e., 'New 0.15-0.25 Sources.p') to create synthetic samples from each source. Within the Jupyter Notebook, parameters of the data creation can be changed, including:
