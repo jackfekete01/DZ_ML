@@ -36,5 +36,5 @@ Finally, we select hyperparameters for the TPOT classifier. In this example, we 
 Once TPOT has finished running, we export an optimized pipeline:
 - 'Optimized TPOT Pipeline Example.py'
 
-### Complete Data Modeling
+## Complete Data Modeling
 
