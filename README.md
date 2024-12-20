@@ -17,5 +17,10 @@ Fixed and variable age mode datasets can be created using the following Jupyter 
 - Fixed AGe Mode Synthetic KDE Creation.ipynb
 - Variable Age Mode Synthetic KDE Creation.ipynb
 
-For each Jupyter Notebook above, you must download the source age distributions (i.e., 'New 0.15-0.25 Sources.p')
+For each Jupyter Notebook above, you must download the source age distributions (i.e., 'New 0.15-0.25 Sources.p') to create synthetic samples from each source. Within the Jupyter Notebook, parameters of the data creation can be changed, including:
+- KDE bandwidth
+- KDE partitioning
+- number of samples created from each source
+
+This data will then automatically be saved as a dictionary (i.e., '0.15-0.25 0 Sources') for each source from each similarity interval. 
 
