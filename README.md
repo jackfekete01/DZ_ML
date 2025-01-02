@@ -36,8 +36,10 @@ Finally, we select hyperparameters for the TPOT classifier. In this example, we 
 Once TPOT has finished running, we export an optimized pipeline:
 - 'Optimized TPOT Pipeline Example.py'
 
+An example pipeline has been generated if users want to skip this step.
+
 ## Synthetic Data Modeling
-Here, we provide a complete code that allows for modeling all synthetic scenarios using either given or generated data. This example code can be found here:
+Here, we provide a complete code for modeling all synthetic scenarios using either given or generated data. This example code can be found here:
 - 'Synthetic Data Modeling Loops.ipynb'
 
-Users can alter some parameters of the code (e.g., the number of model repeats and AutoML pipeline), but most parameters should not be changed. Once finished, this code will create dictionaries of stored results. Depending on the number of model repeats specified, this code can become time-consuming, so premade results can be found in the asset branch.
+Users can alter some code parameters (e.g., the number of model repeats and AutoML pipeline), but most parameters should not be changed. Once finished, this code will create dictionaries of stored results. Depending on the number of model repeats specified, this code can become time-consuming, so premade results can be found in the asset branch.
