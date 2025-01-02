@@ -43,3 +43,6 @@ Here, we provide a complete code for modeling all synthetic scenarios using eith
 - 'Synthetic Data Modeling Loops.ipynb'
 
 Users can alter some code parameters (e.g., the number of model repeats and AutoML pipeline), but most parameters should not be changed. Once finished, this code will create dictionaries of stored results. Depending on the number of model repeats specified, this code can become time-consuming, so premade results can be found in the asset branch.
+
+## Plotting Results
+
