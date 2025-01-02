@@ -37,4 +37,7 @@ Once TPOT has finished running, we export an optimized pipeline:
 - 'Optimized TPOT Pipeline Example.py'
 
 ## Synthetic Data Modeling
+Here, we provide a complete code that allows for modeling all synthetic scenarios using either given or generated data. This example code can be found here:
+- 'Synthetic Data Modeling Loops.ipynb'
 
+Users can alter some parameters of the code (e.g., the number of model repeats and AutoML pipeline), but most parameters should not be changed. Once finished, this code will create dictionaries of stored results. Depending on the number of model repeats specified, this code can become time-consuming, so premade results can be found in the asset branch.
