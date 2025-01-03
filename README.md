@@ -54,7 +54,7 @@ If users want to skip this step, an example pipeline has been generated in the "
 Here, we provide a complete code for modeling all synthetic scenarios using either given or generated data. This example code can be found here:
 - 'Synthetic Data Modeling Loops.ipynb'
 
-Users can alter some code parameters (e.g., the number of model repeats and AutoML pipeline), but most parameters should not be changed. Once finished, this code will create dictionaries of stored results. Depending on the number of model repeats specified, this code can become time-consuming, so premade results can be found in the asset branch.
+Users can alter some code parameters (e.g., the number of model repeats and AutoML pipeline), but most parameters should not be changed. Once finished, this code will create dictionaries of stored results. Depending on the number of model repeats specified, this code can become time-consuming, so premade results can be found in the "assets" branch.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/jackfekete01/DZ_ML/refs/heads/assests/Images/Modeling_params.JPG" alt="Data Creation Parameters" width="600"/>
