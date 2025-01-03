@@ -68,3 +68,6 @@ Using the following code, users can plot all data results as a heatmap:
 
 Graphing the results in heatmaps allows users to visualize the many model results previously generated easily. Here, we plot the AutoML (top), Random Forest (middle), and R2 results (bottom) for every similarity interval, analyses per sample, and sources included. Note how the model results can have considerable variations from model to model. To create less variability in heatmap plots, increase the number of model repetitions in the previous code.   
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/jackfekete01/DZ_ML/refs/heads/assests/Images/Heatmap%20Example.jpeg" alt="Data Creation Parameters" width="600"/>
+</div>
