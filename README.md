@@ -48,7 +48,7 @@ Finally, we select hyperparameters for the TPOT classifier. In this example, we 
 Once TPOT has finished running, we export an optimized pipeline:
 - 'Optimized TPOT Pipeline Example.py'
 
-An example pipeline has been generated if users want to skip this step.
+If users want to skip this step, an example pipeline has been generated in the "assets" branch.
 
 ## Synthetic Data Modeling
 Here, we provide a complete code for modeling all synthetic scenarios using either given or generated data. This example code can be found here:
