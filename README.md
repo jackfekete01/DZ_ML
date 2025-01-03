@@ -27,6 +27,10 @@ For each Jupyter Notebook above, you must download the source age distributions 
 - KDE partitioning
 - number of samples created from each source
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/jackfekete01/DZ_ML/refs/heads/assests/Images/data_creation_raw.JPG" alt="Data Creation Parameters" width="600"/>
+</div>
+
 This data will then automatically be saved as a dictionary (i.e., '0.15-0.25 0 Sources') for each source from each similarity interval.
 
 ## AutoML Pipeline Development using TPOT
