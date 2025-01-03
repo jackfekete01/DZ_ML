@@ -11,7 +11,9 @@ https://zenodo.org/records/14532918
 
 Zenodo DOI: 10.5281/zenodo.14532918
 
-![Zenodo Repository]((https://raw.githubusercontent.com/jackfekete01/DZ_ML/refs/heads/assests/Images/Zenodo_final.png))
+<div align="center">
+  <img src="(https://raw.githubusercontent.com/jackfekete01/DZ_ML/refs/heads/assests/Images/Zenodo_final.png)" alt="Zenodo Repository">
+</div>
 
 This dataset represents a 50-sample model for fixed age proportion data. Each file contains all the data for each source from a set interval and the number of analyses used to create each synthetic kernel density estimate (KDE). 
 
