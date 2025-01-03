@@ -39,7 +39,11 @@ Here, we provide an example of the AutoML optimization process using TPOT. This 
 
 To begin, we select a similarity interval of data to test this on; in our example, this is the 0.95-0.99 similarity interval. We then select a subset of this data to create an individual model by selecting the number of sources included and the number of analyses per sample. In our case, we select five sources with 115 analyses per synthetic KDE. This data is then formatted and preprocessed for the TPOT classifier.
 
-Finally, we select hyperparameters for the TPOT classifier. In this example, we keep the number of iterations and run time low to limit the optimization time. However, these hyperparameters can be increased for better results. 
+Finally, we select hyperparameters for the TPOT classifier. In this example, we keep the number of iterations and run time low to limit the optimization time. However, these hyperparameters can be increased for better results.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/jackfekete01/DZ_ML/refs/heads/assests/Images/TPOT_params.JPG" alt="Data Creation Parameters" width="600"/>
+</div>
 
 Once TPOT has finished running, we export an optimized pipeline:
 - 'Optimized TPOT Pipeline Example.py'
