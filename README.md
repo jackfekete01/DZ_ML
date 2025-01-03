@@ -56,6 +56,12 @@ Here, we provide a complete code for modeling all synthetic scenarios using eith
 
 Users can alter some code parameters (e.g., the number of model repeats and AutoML pipeline), but most parameters should not be changed. Once finished, this code will create dictionaries of stored results. Depending on the number of model repeats specified, this code can become time-consuming, so premade results can be found in the asset branch.
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/jackfekete01/DZ_ML/refs/heads/assests/Images/Modeling_params.JPG" alt="Data Creation Parameters" width="600"/>
+</div>
+
+It is important to note that the parameters used to create the synthetic data (i.e., number of analyses per sample and number of sources) must be specified within the model. Currently, the provided example uses the parameters from the manuscript.
+
 ## Plotting Results
 Using the following code, users can plot all data results as a heatmap:
 - 'Graphing Matrix.ipynb'
