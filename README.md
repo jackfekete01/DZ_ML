@@ -45,4 +45,8 @@ Here, we provide a complete code for modeling all synthetic scenarios using eith
 Users can alter some code parameters (e.g., the number of model repeats and AutoML pipeline), but most parameters should not be changed. Once finished, this code will create dictionaries of stored results. Depending on the number of model repeats specified, this code can become time-consuming, so premade results can be found in the asset branch.
 
 ## Plotting Results
+Using the following code, users can plot all data results as a heatmap:
+- 'Graphing Matrix.ipynb'
+
+Graphing the results in heatmaps allows users to visualize the many model results previously generated easily. Here, we plot the AutoML (top), Random Forest (middle), and R2 results (bottom) for every similarity interval, analyses per sample, and sources included. Note how the model results can have considerable variations from model to model. To create less variability in heatmap plots, increase the number of model repetitions in the previous code.   
 
